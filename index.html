@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Tabuada</title>
+    
+    <!--Links-->
+    <link rel="stylesheet" href="CSS/styles.css">
+    <script src="JS/scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <h1>Gerador de Tabuada!</h1>
+        </div>
+    </header>
+    <main>
+        
+        <section class="section1">
+            <h2>Olá, seja muito bem vindo 🙋🏻‍♂️ </h2>
+            <p>Teste o meu gerador de tabuada</p>
+        </section>
+        <section class="section2">
+
+            <div class="div_Multiplicar">
+                <h3>Gere a sua tabuada:</h3>
+                <form id="frm_Multiplicador">
+                    <div>
+                        <label for="number">Tabuada do número:</label>
+                        <input type="number" name="number" id="inp_numero" placeholder="3"/>
+                    </div>
+                    <div>
+                        <label for="multiplicador">Multiplicar até: </label>
+                        <input type="number" name="multiplicador" id="inp_multiplicador" value="10"/>
+                    </div>
+                    <button id="btn_Calcular" type="submit">Calcular</button>
+                </form>                
+            </div><!--div_Form-->
+
+            <div class="div_Resultado">
+                <h3 >Tabuada do número <span id="titleResultado"></span>:</h3>
+                
+                <div id="multiplicador-operacoes">
+                    <p>Informe um número para calcular uma tabuada...</p>
+                </div>
+            </div> <!--div_Resultado-->
+            
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 - Desenvolvedor: <a href="mailto:hygor.o53@gmail.com">Hygor.o53@gmail.com</a></p>
+    </footer>
+</body>
+</html>
